@@ -1,5 +1,5 @@
 
-package H2;
+package h2;
 class task2 {
     public boolean isSameAfterReversals(int num) {
         int reversed = 0;

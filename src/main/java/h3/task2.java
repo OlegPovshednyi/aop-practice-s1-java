@@ -1,4 +1,4 @@
-package H3;
+package h3;
 
 public class task2 {
     public int differenceOfSums(int n, int m) {

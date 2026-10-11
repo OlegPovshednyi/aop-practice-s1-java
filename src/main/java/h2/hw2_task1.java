@@ -1,4 +1,4 @@
-package H2;
+package h2;
 
 class task1 {
     public int addDigits(int num) {

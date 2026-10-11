@@ -1,4 +1,4 @@
-package H3;
+package h3;
 
 public class task1 {
     public double average(int[] salary) {

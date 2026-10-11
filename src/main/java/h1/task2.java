@@ -1,4 +1,4 @@
-package H1;
+package h1;
 
 class Task2 {
     public int countOdds(int low, int high) {
