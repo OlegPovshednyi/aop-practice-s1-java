@@ -1,6 +1,6 @@
 
 package h2;
-class task2 {
+class hw2_task2 {
     public boolean isSameAfterReversals(int num) {
         int reversed = 0;
         int original = num;
@@ -20,3 +20,4 @@ class task2 {
         return reversed2 == original;
     }
 }
+//link=https://leetcode.com/submissions/detail/2161520999/

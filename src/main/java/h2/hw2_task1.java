@@ -1,6 +1,6 @@
 package h2;
 
-class task1 {
+class hw2_task1 {
     public int addDigits(int num) {
         while (num >= 10) {
             int sum = 0;
@@ -17,3 +17,4 @@ class task1 {
         return num;
     }
 }
+//link = https://leetcode.com/submissions/detail/2161517045//

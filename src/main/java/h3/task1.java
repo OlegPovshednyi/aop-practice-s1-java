@@ -27,3 +27,4 @@ public class task1 {
         return (double) sum / (salary.length - 2);
     }
 }
+//link=https://leetcode.com/submissions/detail/2165762708/

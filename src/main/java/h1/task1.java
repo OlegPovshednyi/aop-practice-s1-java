@@ -1,6 +1,6 @@
 package h1;
 
-class Solution {
+class task1 {
     public int smallestEvenMultiple(int n) {
         if (n % 2 == 0) {
             return n;
@@ -10,3 +10,4 @@ class Solution {
         }
     }
 }
+//link =https://leetcode.com/submissions/detail/2155749913//
