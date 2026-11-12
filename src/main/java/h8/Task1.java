@@ -1,5 +1,6 @@
 package h8;
 
+// https://leetcode.com/problems/max-consecutive-ones/submissions/2182586294/
 public class Task1 {
   public int findMaxConsecutiveOnes(int[] nums) {
     int count = 0;
@@ -17,5 +18,3 @@ public class Task1 {
     return maxcount;
   }
 }
-
-// link =https://leetcode.com/problems/max-consecutive-ones/submissions/2182586294/

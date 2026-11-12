@@ -1,5 +1,6 @@
 package h2;
 
+// https://leetcode.com/submissions/detail/2161520999/
 class Task2 {
   public boolean isSameAfterReversals(int num) {
     int reversed = 0;
@@ -20,4 +21,3 @@ class Task2 {
     return reversed2 == original;
   }
 }
-// link=https://leetcode.com/submissions/detail/2161520999/

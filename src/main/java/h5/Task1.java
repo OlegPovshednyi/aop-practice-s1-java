@@ -1,5 +1,6 @@
 package h5;
 
+// https://leetcode.com/problems/maximum-product-difference-between-two-pairs//
 public class Task1 {
 
   public int maxProductDifference(int[] nums) {
@@ -36,4 +37,3 @@ public class Task1 {
     return (max1 * max2) - (min1 * min2);
   }
 }
-// link= https://leetcode.com/problems/maximum-product-difference-between-two-pairs//

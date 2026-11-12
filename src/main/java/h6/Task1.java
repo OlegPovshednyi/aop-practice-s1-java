@@ -2,6 +2,8 @@ package h6;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/valid-anagram/
+
 public class Task1 {
   public boolean isAnagram(String s, String t) {
     if (s.length() != t.length()) {
@@ -14,4 +16,3 @@ public class Task1 {
     return Arrays.equals(f, g);
   }
 }
-// link= https://leetcode.com/problems/valid-anagram/

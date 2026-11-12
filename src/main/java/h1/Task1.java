@@ -1,5 +1,6 @@
 package h1;
 
+// https://leetcode.com/submissions/detail/2155749913//
 class Task1 {
   public int smallestEvenMultiple(int n) {
     if (n % 2 == 0) {
@@ -9,4 +10,3 @@ class Task1 {
     }
   }
 }
-// link =https://leetcode.com/submissions/detail/2155749913//

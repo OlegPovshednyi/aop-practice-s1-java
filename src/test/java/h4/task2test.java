@@ -1,13 +1,13 @@
 package h4;
-import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Test;
 
 public class task2test {
 
-
-   @Test
-   void testatsk2(){
+  @Test
+  void testatsk2() {
 
     Task2 task2 = new Task2();
 
@@ -18,5 +18,6 @@ public class task2test {
     assertEquals(1, task2.findComplement(2));
     assertEquals(4, task2.findComplement(3));
     assertEquals(3, task2.findComplement(4));
-    assertEquals(8, task2.findComplement(23));}
+    assertEquals(8, task2.findComplement(23));
+  }
 }

@@ -1,10 +1,13 @@
 package h10;
-import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
 public class task1test {
 
-    @Test
-    void testtask1(){
+  @Test
+  void testtask1() {
 
     Task1 task1 = new Task1();
 
@@ -18,4 +21,5 @@ public class task1test {
     assertEquals('d', task1.kthCharacter(8));
     assertEquals('b', task1.kthCharacter(9));
     assertEquals('c', task1.kthCharacter(10));
-}}
+  }
+}

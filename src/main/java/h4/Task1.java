@@ -1,5 +1,6 @@
 package h4;
 
+// https://leetcode.com/problems/hamming-distance/
 public class Task1 {
   public int hammingDistance(int x, int y) {
     int n = x ^ y;
@@ -13,5 +14,3 @@ public class Task1 {
     return count;
   }
 }
-
-// Link to task 1: https://leetcode.com/problems/hamming-distance/

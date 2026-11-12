@@ -1,5 +1,6 @@
 package h3;
 
+// https://leetcode.com/submissions/detail/2165762708/
 public class Task1 {
   public double average(int[] salary) {
     int sum = 0;
@@ -25,4 +26,3 @@ public class Task1 {
     return (double) sum / (salary.length - 2);
   }
 }
-// link=https://leetcode.com/submissions/detail/2165762708/

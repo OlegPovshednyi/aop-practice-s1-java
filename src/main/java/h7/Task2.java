@@ -1,5 +1,6 @@
 package h7;
 
+// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/2181742418/
 public class Task2 {
   public int numberOfSteps(int num) {
     int count = 0;
@@ -15,4 +16,3 @@ public class Task2 {
     return count;
   }
 }
-// link=https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/2181742418/

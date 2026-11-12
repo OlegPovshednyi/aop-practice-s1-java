@@ -1,5 +1,6 @@
 package h3;
 
+// https://leetcode.com/submissions/detail/2165764282/
 public class Task2 {
   public int differenceOfSums(int n, int m) {
     int num1 = 0;
@@ -16,4 +17,3 @@ public class Task2 {
     return num1 - num2;
   }
 }
-// https://leetcode.com/submissions/detail/2165764282/

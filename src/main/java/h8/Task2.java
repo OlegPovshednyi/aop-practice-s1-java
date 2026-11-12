@@ -2,6 +2,7 @@ package h8;
 
 import java.util.List;
 
+// https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
 public class Task2 {
 
   public int countPairs(List<Integer> nums, int target) {
@@ -18,5 +19,3 @@ public class Task2 {
     return count;
   }
 }
-
-// link =https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/

@@ -1,5 +1,6 @@
 package h6;
 
+// https://leetcode.com/problems/valid-palindrome//
 public class Task2 {
 
   public boolean isPalindrome(String s) {
@@ -27,4 +28,3 @@ public class Task2 {
     return true;
   }
 }
-// link=https://leetcode.com/problems/valid-palindrome//

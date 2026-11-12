@@ -1,5 +1,6 @@
 package h4;
 
+// https://leetcode.com/problems/number-complement/
 public class Task2 {
   public int findComplement(int num) {
     int mask = 1;
@@ -11,5 +12,3 @@ public class Task2 {
     return num ^ mask;
   }
 }
-
-// Link to task 2: https://leetcode.com/problems/number-complement/

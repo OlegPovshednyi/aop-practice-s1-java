@@ -1,5 +1,6 @@
 package h5;
 
+// https://leetcode.com/problems/squares-of-a-sorted-array//
 public class Task2 {
 
   public int[] sortedSquares(int[] nums) {
@@ -22,4 +23,3 @@ public class Task2 {
     return arr;
   }
 }
-// link= https://leetcode.com/problems/squares-of-a-sorted-array//

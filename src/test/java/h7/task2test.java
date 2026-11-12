@@ -1,9 +1,12 @@
 package h7;
-import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
 public class task2test {
-   @Test
-           void testtask2(){
+  @Test
+  void testtask2() {
 
     Task2 task2 = new Task2();
 
@@ -24,4 +27,5 @@ public class task2test {
     assertEquals(3, task2.numberOfSteps(3));
 
     assertEquals(31, task2.numberOfSteps(1000000));
-}}
+  }
+}

@@ -3,6 +3,7 @@ package h7;
 import java.util.ArrayList;
 import java.util.List;
 
+// https://leetcode.com/problems/fizz-buzz/
 public class Task1 {
 
   public List<String> fizzBuzz(int n) {
@@ -23,5 +24,3 @@ public class Task1 {
     return list;
   }
 }
-
-// link=https://leetcode.com/problems/fizz-buzz/
