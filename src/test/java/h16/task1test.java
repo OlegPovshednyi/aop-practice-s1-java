@@ -10,7 +10,7 @@ public class task1test {
   void testtask1() {
     Task1 task1 = new Task1();
 
-    
+
     int[][] image1 = {
       {1, 1, 1},
       {1, 1, 0},
