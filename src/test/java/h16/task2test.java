@@ -10,17 +10,14 @@ public class task2test {
   void testtask2() {
     Task2 task2 = new Task2();
 
-
     int[][] trust1 = {{1, 2}};
     assertEquals(2, task2.findJudge(2, trust1));
-
 
     int[][] trust2 = {
       {1, 3},
       {2, 3}
     };
     assertEquals(3, task2.findJudge(3, trust2));
-
 
     int[][] trust3 = {
       {1, 3},
@@ -29,10 +26,8 @@ public class task2test {
     };
     assertEquals(-1, task2.findJudge(3, trust3));
 
-
     int[][] trust4 = {};
     assertEquals(1, task2.findJudge(1, trust4));
-
 
     int[][] trust5 = {};
     assertEquals(-1, task2.findJudge(3, trust5));

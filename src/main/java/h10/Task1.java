@@ -1,5 +1,6 @@
 package h10;
 
+// https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
 public class Task1 {
   public char kthCharacter(int k) {
     StringBuilder word = new StringBuilder("a");
@@ -16,4 +17,3 @@ public class Task1 {
     return word.charAt(k - 1);
   }
 }
-// link=https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/

@@ -1,5 +1,7 @@
 package h11;
 
+// https://leetcode.com/problems/majority-element/
+
 public class Task2 {
   public int majorityElement(int[] nums) {
     int candidate = 0;
@@ -18,5 +20,3 @@ public class Task2 {
     return candidate;
   }
 }
-
-// link=https://leetcode.com/problems/majority-element/

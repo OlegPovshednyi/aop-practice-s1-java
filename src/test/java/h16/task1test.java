@@ -10,7 +10,6 @@ public class task1test {
   void testtask1() {
     Task1 task1 = new Task1();
 
-
     int[][] image1 = {
       {1, 1, 1},
       {1, 1, 0},
@@ -25,7 +24,6 @@ public class task1test {
 
     assertArrayEquals(expected1, task1.floodFill(image1, 1, 1, 2));
 
-
     int[][] image2 = {
       {0, 0, 0},
       {0, 0, 0},
@@ -39,7 +37,6 @@ public class task1test {
     };
 
     assertArrayEquals(expected2, task1.floodFill(image2, 0, 0, 0));
-
 
     int[][] image3 = {
       {1, 1, 1},

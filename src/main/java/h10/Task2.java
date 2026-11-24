@@ -1,5 +1,6 @@
 package h10;
 
+// https://leetcode.com/problems/reverse-string/
 public class Task2 {
   public void reverseString(char[] s) {
     int left = 0;
@@ -15,4 +16,3 @@ public class Task2 {
     }
   }
 }
-// link=https://leetcode.com/problems/reverse-string/

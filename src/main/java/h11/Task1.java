@@ -1,5 +1,6 @@
 package h11;
 
+// https://leetcode.com/problems/missing-number/
 public class Task1 {
   public int missingNumber(int[] nums) {
     int expected = 0;
@@ -13,4 +14,3 @@ public class Task1 {
     return expected - actual;
   }
 }
-// link=https://leetcode.com/problems/missing-number/
